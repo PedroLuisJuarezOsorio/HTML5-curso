@@ -7,3 +7,6 @@ Live Server Preview
 
 Ejemplos de HTML:
 https://www.mclibre.org/
+
+sugerencia de pagina, con una paletas de colores en tendencia (Trending Color):
+https://coolors.co/palettes/trending
