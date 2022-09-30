@@ -1,0 +1,9 @@
+
+Extenciones Instaladas basicas para Visual Code:
+prettier
+liver server
+path intellisense
+Live Server Preview
+
+Ejemplos de HTML:
+https://www.mclibre.org/

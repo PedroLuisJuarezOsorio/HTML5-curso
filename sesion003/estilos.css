@@ -1,0 +1,49 @@
+h4{
+    Color:#772222;    }
+h9{
+    color: #f0ffff;
+    background-color: rgb(36, 97, 63);
+}
+
+h7{ /*implementando box model*/
+    color: darkblue;
+    background-color: #fad3a1;
+    padding: 15px;
+    border: 10px solid rgb(136, 217, 255);
+    margin: 20px;
+}
+
+h8{ /*implementando box model*/
+    color: darkblue;
+    background-color: #fad3a1;
+    padding: 15px;
+    border: 10px solid #88d9ff;
+    margin: 40px 10px 20px 100px;
+}
+
+a:link{ color: #09aa52;  /*link no visitado*/
+        text-decoration: none;} /* sin subrayado*/
+
+a:visited{ color: #797979; /*cuando se visita*/
+        text-decoration: none;} /* sin subrayado*/
+
+a:hover{ color: midnightblue; /*cursor encima*/
+        text-decoration: underline;} /*subrayado*/
+
+a:active{ color: rgb(247, 11, 11); /*click precionado*/
+        text-decoration: none;}
+
+
+
+aa:link, aa:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+aa a:hover, aa:active{
+    background-color: #f72585;
+}

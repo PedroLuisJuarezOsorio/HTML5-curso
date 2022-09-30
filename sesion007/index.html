@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Leccion007</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <hr><h2>→ Formulario (etiqueta form) → </h2><hr>
+    
+    <form action="url_mi_servidor">
+    <!-- <form method="post" action="url_mi_servidor"> -->
+    <fieldset>
+        <legend>[Fieldset, Legend] DATOS : PERSONA</legend>
+
+
+
+        <label for="idpersona">Id</label><br>
+        <input type="text" id="idpersona" name="dbidpersona" readonly="true" value="199" disabled="true" /><br>
+
+        <input type="hidden" id="sistema" name="dbsistema" value="SAP"><!-- enviar datos ocultos -->
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="dbnombre" required="true"/><br> <!-- captura de datos del usuario con input-->
+
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="dbapellido" required="true"/><br>
+
+        <label for="contrasena">Contraseña</label><br>
+        <input type="password" id="contrasena" name="dbemail" required="true"/><br>
+
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="dbcontrasena" required="true"/><br>
+
+        <label for="edad">edad</label><br>
+        <input type="number" id="edad" name="dbedad" required="true"/><br>
+
+        <br>
+        <label>[Radiobuttons] Genero</label><br/> <!-- Radiobuttons-->
+        <input type="radio" id="femenino" name="dbgenero" value="femenino"/>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="dbgenero" value="masculino"/>
+        <label for="masculino">Masculino</label>
+
+        <br>
+        <br>
+        <label for="">[checkboxes] Genero de Musica</label><br/><!-- checkboxes-->
+        <input type="checkbox" name="dbmusica" id="clasica" value="clasica"/>
+        <label for="clasica">Clasica</label><br/>
+
+        <input type="checkbox" name="dbmusica" id="Alternativo" value="Alternativo"/>
+        <label for="Alternativo">Alternativo</label><br/>
+
+        <input type="checkbox" name="dbmusica" id="rock" value="rock"/>
+        <label for="rock">Rock</label><br/>
+
+        <br>
+        <br>
+        <label for="autos">[Element select] Marca Auto</label><br/><!-- Element select-->
+        <select name="dbautos" id="autos">
+            <option value="Volvo">1) Volvo</option>
+            <option value="BMW">2) BMW</option>
+            <option value="Audi">3) Audi</option>
+        </select>
+        
+        <br>
+        <br>
+        <label for="comentario">[TextArea] Comentario: </label><br/><!-- --> 
+        <textarea name="dbcomentario" id="comentario" cols="100" rows="5">
+        </textarea><br/>
+
+
+        <br/>
+        <br/>
+        <input type="submit" value="Enviar"> <!-- con esta funcion enviamos los dato a un servicio-->
+        <input type="submit" value="Enviar sin Validar" formnovalidate="formnovalidate"> <!-- con esta funcion enviamos los dato a un servicio sin validar-->
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+    
+
+<p>Metodo GET : http://127.0.0.1:5500/sesion007/index.html?dbnombre=pedro&dbapellido=juarez&dbcontrasena=123456</p>
+<a style="color: red;">vemos que este metodo deja al descubierto toda la informacion enviada en la URL</a>
+<p>Metodo POST : http://127.0.0.1:5500/sesion007/index.html</p>
+<a style="color: red;">la informacion se envia via HTTP, por ello no sera
+    visto en la URL, y se esperar un request (respuesta), se pueden grabar el envio de datos en el navegador /network/header</a>
+<br>
+<br>
+<br>
+<br>
+<iframe src="apuntes.txt" frameborder="0" ></iframe>
+<br>
+<br>
+<img src="/imagenesGlobales/metodos.JPG" alt="">
+
+</body>
+</html>

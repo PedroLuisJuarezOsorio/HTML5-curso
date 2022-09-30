@@ -1,0 +1,15 @@
+Formulario:  con id=nombre y name=dbnombre, + enviar = se envia dbnombre=pedro (name=id)
+
+QueryString : son los datos enviados al servidor
+
+required="true" : solicita validar datos
+
+step = "any" :  permite poder ingresar decimales en type="number"
+
+
+si utilizamos el atributo disabled="true" el dato almacenado no se envia* (199) not
+<input type="text" id="idpersona" name="dbidpersona" readonly="true" value="199" disabled="true" /><br>
+
+
+si NO utilizamos el atributo disabled="true" el dato almacenado si se envia* (199) ok
+<input type="text" id="idpersona" name="dbidpersona" readonly="true" value="199"/><br>

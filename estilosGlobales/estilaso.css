@@ -1,0 +1,14 @@
+
+h2{
+    
+    color: #0044ff; 
+    text-align: center;
+    font-size: 20px;
+}
+
+.tematitulo{ /*aplicar ccomo clase*/
+        background-color: lightgrey;
+        color: #0044ff; 
+        text-align: center;
+        font-size: 20px;
+}

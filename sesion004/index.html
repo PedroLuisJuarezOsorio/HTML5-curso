@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'><!-- parametro para utilizar acentos-->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HTML-Leccion4</title> <!-- nombre en pestaña-->
+    <link rel="stylesheet" href="estilos.css"/>
+    
+    <!-- nombre en pestaña-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+   
+    <hr>
+    <h2 style="color: #0044ff; text-align: center;font-size: 20px;">
+        → Tablas → </h2><hr>
+    <h3>even=par / odd=impar</h3>
+    <table >
+        <tr><!-- table row : cabeceros-->
+            <th>Nombre</th> <!-- table head : Titulos-->
+            <th>Apellido</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>Pedro</td><!-- table data : datos-->
+            <td>Juarez</td><!-- table data : datos-->
+            <td>correo@gmail.com</td><!-- table data : datos-->            
+        </tr>
+        <tr>
+            <td>Luis</td><!-- table data : datos-->
+            <td>Juarez</td><!-- table data : datos-->
+            <td>correo@gmail.com</td><!-- table data : datos-->            
+        </tr> 
+        <tr>
+            <td>Floridalma</td><!-- table data : datos-->
+            <td>Osorio</td><!-- table data : datos-->
+            <td>correo@gmail.com</td><!-- table data : datos-->            
+        </tr>       
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h2 style="color: #0044ff; text-align: center;font-size: 20px;">
+        → Atributos colspan y rowspan en tablas → </h2><hr>
+    
+    <table >
+        <caption>LISTADO DE NOMBRES</caption>
+        <tr><!-- table row : cabeceros-->
+            <th colspan="2">Nombre completo</th> <!-- table head : Titulos-->
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>Pedro</td><!-- table data : datos-->
+            <td>Juarez</td><!-- table data : datos-->
+            <td rowspan="2">correo@gmail.com</td><!-- table data : datos-->            
+        </tr>
+        <tr>
+            <td>Luis</td><!-- table data : datos-->
+            <td>Juarez</td><!-- table data : datos-->
+            <!-- <td>correo@gmail.com</td> table data : datos-->            
+        </tr>        
+    </table>
+
+
+</body>        
+</html>

@@ -1,0 +1,7 @@
+<section> : nueva seccion parecido al <div>
+<article> : Son elementos independientes, se pueden reutilizar
+<aside> : agregar datos o barras laterales
+<header><footer> : cabezero y un pie de pagina
+<hgroup> :  podemos agrupar elementos
+<nav> :  define barras de navegacion dentro de nuestra pagina.
+las etiquetas semanticas se utilizan para llevar un orden y que para los buscadores sea mucho mas facil.
